@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+    <defs>
+        <!-- Top-left gradient -->
+        <linearGradient id="topLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ffb400" />
+            <stop offset="45%" stop-color="#f18b0c" />
+            <stop offset="100%" stop-color="#b8b46b" />
+        </linearGradient>
+
+        <!-- Top-right gradient -->
+        <linearGradient id="topRight" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ed4b19" />
+            <stop offset="55%" stop-color="#e20d36" />
+            <stop offset="100%" stop-color="#85506e" />
+        </linearGradient>
+
+        <!-- Bottom-left gradient -->
+        <linearGradient id="bottomLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#50a88c" />
+            <stop offset="55%" stop-color="#08a5df" />
+            <stop offset="100%" stop-color="#079dd8" />
+        </linearGradient>
+
+        <!-- Bottom-right gradient -->
+        <linearGradient id="bottomRight" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#526ca8" />
+            <stop offset="50%" stop-color="#078ed2" />
+            <stop offset="100%" stop-color="#079edc" />
+        </linearGradient>
+    </defs>
+
+    <!-- Top-left -->
+    <polygon fill="url(#topLeft)" points="
+        98.3,273.4
+        484.4,50.2
+        484.4,196.6
+        225.3,345.1
+        225.3,484.4
+        98.3,484.4
+    " />
+
+    <!-- Top-right -->
+    <polygon fill="url(#topRight)" points="
+        539.6,50.2
+        925.7,273.4
+        925.7,484.4
+        798.7,484.4
+        798.7,345.1
+        539.6,196.6
+    " />
+
+    <!-- Bottom-left -->
+    <polygon fill="url(#bottomLeft)" points="
+        98.3,539.6
+        225.3,539.6
+        225.3,678.9
+        484.4,827.4
+        484.4,973.8
+        98.3,750.6
+    " />
+
+    <!-- Bottom-right -->
+    <polygon fill="url(#bottomRight)" points="
+        798.7,539.6
+        925.7,539.6
+        925.7,750.6
+        539.6,973.8
+        539.6,827.4
+        798.7,678.9
+    " />
+</svg>

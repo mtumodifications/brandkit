@@ -1,0 +1,30 @@
+{
+  "name": "brandkit",
+  "version": "1.0.0",
+  "description": "Brand assets for MTUMods",
+  "keywords": [
+    "brandkit",
+    "mtumods"
+  ],
+  "homepage": "https://github.com/mtumodifications/brandkit#readme",
+  "bugs": {
+    "url": "https://github.com/mtumodifications/brandkit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtumodifications/brandkit.git"
+  },
+  "type": "module",
+  "scripts": {
+    "convert": "tsx app/convert.ts"
+  },
+  "dependencies": {
+    "sharp": "^0.35.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "png-to-ico": "^3.0.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
